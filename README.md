@@ -7,10 +7,13 @@ Note: This game is written for use in node.js. It may not function without depen
 Dependencies:
 
 Node.js installed: https://nodejs.org/en/
+
 prompt-sync installed: https://github.com/heapwolf/prompt-sync
 
-Contact:
+
+Contact: 
 You may contact me if you have questions or comments about my program, coding in general, or if you want to hire me for something! Please do not contact me with sales solicitations.
 
 https://twitter.com/thinkingethmoji
+
 thinkingethmoji@gmail.com
