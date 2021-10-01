@@ -15,8 +15,6 @@ function newgame(){
     getadjectives(mltemplate.numadjectives);
     getextras(mltemplate.extras.length)
 
-    console.log(mltemplate);
-    console.log(extrainputs);
     console.log(encodetext(mltemplate.text));
 }
 
@@ -25,7 +23,7 @@ const mltemplate = {
     numverbs: 0,
     numadjectives: 0,
     extras: [],
-    text: 'There was once a boy named <EXTRA Name>. He was a <ADJECTIVE> fan of <NOUN> and loved to <VERB> <NOUN>s. One day he decided to go to <EXTRA Location> so that he could <VERB> <NOUN>. That was a very <ADJECTIVE> day!'
+    text: 'There was once a boy named <EXTRA Name>. He was a <ADJECTIVE> fan of <NOUN> and loved to <VERB> <NOUN>s. One day he decided to go to <EXTRA Location> so that he could <VERB> <NOUN>s. That was a very <ADJECTIVE> day!'
 }
 
 function decodetext(txt){
