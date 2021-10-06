@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>MadLibs by ThinkingEmoji</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./MadLibs.js" defer></script>
+  </head>
+<body>
+  <a href="./madlibs.html"><img src="./images/Thinking.webp" width="50" height="50" id="logo"></a>
+  <a href="./madlibs.html"><img src="./images/TElettering.png" id="logolettering"></a>
+  <a href="http://twitter.com/thinkingethmoji" target="_blank"><img src="./images/twitterlogo.png" width="30" height="30" id="twitt"></a>
+
+<header class="header">
+  <div class="topsegment">
+    <h1>MadLibs</h1>
+    <h3>Portfolio Project<h3>
+  </div>
+</header>
+
+<div class="main" align="center">
+<div class="content" align="center">
+  <select name="script" id="setscript">
+      <option value="-1" selected>Choose Script</option>
+      <option value="0">A Boy's Day</option>
+      <option value="1">Speeding</option>
+      <option value="2">The Thief</option>
+      <option value="3">Danger</option>
+  </select>
+  <button onclick="newgame(-1)" class="button button-primary">Start</button>
+  <button onclick="newscript()" class="button button-primary">Play with custom script</button>
+
+  <div class="replace" id="touser">
+      Would you like to play a game?<br><br>
+      Select a script from the dropdown menu and click start, or enter your own custom script!
+  </div>
+
+  <div class="replace" id="replace">
+  </div>
+</div>
+</div>
+
+</body>
+</html> 
